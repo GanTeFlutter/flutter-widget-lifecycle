@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 
+
+
+/// Uygulama yaşam döngüsünü dinlemek için kullanılan yardımcı sınıf.
+/// Debug çıktıları ile uygulamanın yaşam döngüsü durumlarını takip etmeyi sağlar.Debug konsolda  Crtl+f ile (--) ekleyin ve tüm çıktıları rahatça görün.
 class AppLifecycleDisplay extends StatefulWidget {
   const AppLifecycleDisplay({super.key});
 

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+/// Parent widget, child widget'in yaşam döngüsü metotlarını tetiklemek  ve dispose() ve deactivate() metotlarını gözlemlemek için örnek
+
 class ParentWidget extends StatefulWidget {
   const ParentWidget({super.key});
 
@@ -15,7 +17,7 @@ class _ParentWidgetState extends State<ParentWidget> {
   void initState() {
     super.initState();
     debugPrint('ParentWidget ----🟢 ParentWidget initState() çağrıldı');
-      }
+  }
 
   @override
   Widget build(BuildContext context) {
