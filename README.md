@@ -203,15 +203,16 @@ void didChangeDependencies() {
 ```
 ## 📖 Kaynaklar
 
-### Resmi Flutter Dokümantasyonu
-- [State Class](https://api.flutter.dev/flutter/widgets/State-class.html){:target="_blank"}
-- [StatefulWidget Class](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html){:target="_blank"}
-- [Flutter Lifecycle](https://flutter.dev/docs/development/ui/interactive){:target="_blank"}
+### 🔹 Resmi Flutter Dokümantasyonu
+- [State Class](https://api.flutter.dev/flutter/widgets/State-class.html)
+- [StatefulWidget Class](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html)
+- [Flutter Lifecycle](https://flutter.dev/docs/development/ui/interactive)
 
-### Faydalı Bağlantılar
-- [Flutter GitHub - Lifecycle Örneği](https://github.com/flutter/flutter/blob/master/examples/layers/services/lifecycle.dart){:target="_blank"}
+### 🔹 Faydalı Bağlantılar
+- [Flutter GitHub - Lifecycle Örneği](https://github.com/flutter/flutter/blob/master/examples/layers/services/lifecycle.dart)
 
 ---
 
-### Web Sitesi
-- [Bi de burdan bakın :}](https://akillisletme.com){:target="_blank"}
+### 🌐 Web Sitesi
+- [Bi de buradan bakın :}](https://akillisletme.com)
+
