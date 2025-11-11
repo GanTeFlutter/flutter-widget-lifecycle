@@ -160,27 +160,7 @@ graph TD
 
 ## ⚠️ Yaygın Hatalar ve Çözümleri
 
-### 1. initState() içinde setState() çağırmak
 
-```dart
-// ❌ YANLIŞ
-@override
-void initState() {
-  super.initState();
-  setState(() {}); // HATA!
-}
-
-// ✅ DOĞRU
-@override
-void initState() {
-  super.initState();
-  WidgetsBinding.instance.addPostFrameCallback((_) {
-    setState(() {});
-  });
-}
-```
-
-### 2. dispose() sonrası setState() çağırmak
 
 ```dart
 // ❌ YANLIŞ
@@ -198,25 +178,7 @@ void _loadData() async {
 }
 ```
 
-### 3. didChangeDependencies() içinde sonsuz döngü
 
-```dart
-// ❌ YANLIŞ
-@override
-void didChangeDependencies() {
-  super.didChangeDependencies();
-  setState(() {}); // Sonsuz döngü!
-}
-
-// ✅ DOĞRU
-@override
-void didChangeDependencies() {
-  super.didChangeDependencies();
-  // Sadece gerekli durumlarda setState kullan
-}
-```
-
----
 
 ## 🎯 En İyi Pratikler
 
@@ -230,12 +192,6 @@ void dispose() {
 }
 ```
 
-**2. Async işlemlerde mounted kontrolü yapın**
-```dart
-if (mounted) {
-  setState(() {});
-}
-```
 
 **3. Context bağımlı işlemleri didChangeDependencies()'te yapın**
 ```dart
@@ -245,11 +201,6 @@ void didChangeDependencies() {
   final theme = Theme.of(context);
 }
 ```
-
-**4. didUpdateWidget() içinde setState() çağırmayın**
-- Framework zaten build() çağıracaktır
-
----
 
 ## 📖 Kaynaklar
 
