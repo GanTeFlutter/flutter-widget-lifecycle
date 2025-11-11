@@ -214,7 +214,6 @@ void didChangeDependencies() {
 
 ---
 
-**Son Güncelleme:** Kasım 2025  
-**Flutter Versiyonu:** 3.x+
+### Web Sitesi
 
-**Lisans:** MIT
+- [Bi de burdan bakın :} ](https://akillisletme.com)
