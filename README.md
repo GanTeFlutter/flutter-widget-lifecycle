@@ -8,7 +8,7 @@ Flutter resmi dokümantasyonlarına dayanan detaylı StatefulWidget yaşam döng
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│ 1. createState()           → Framework çağırır          │
+│ 1. createState()           → state oluşur        │
 │ 2. initState()             → İlk başlatma               │
 │ 3. didChangeDependencies() → Bağımlılık kontrolü        │
 │ 4. build()                 → UI oluşturma               │
